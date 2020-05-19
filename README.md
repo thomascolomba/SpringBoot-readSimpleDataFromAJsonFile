@@ -30,6 +30,9 @@ MyConfigurationBean myConf;<br/>
 System.out.println(myConf.getMyInteger());<br/>
 System.out.println(myConf.getMyString());<br/>
 System.out.println(myConf.getMyBoolean());<br/>
+---pom.xml<br/>
+&lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;<br/>
+&lt;artifactId&gt;jackson-databind&lt;/artifactId&gt;<br/>
 <br/>
 <br/>
 The application will read the values '1234', 'qwerty' and 'true' from the configuration file then display it in the terminal.<br/>
